@@ -4,6 +4,7 @@ body {
 }
 
 .contenedor {
+  margin-top:100px;
   position: relative;
   top: 50%;
   left: 50%;
