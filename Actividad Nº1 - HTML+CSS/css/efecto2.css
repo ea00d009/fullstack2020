@@ -1,33 +1,32 @@
-body,html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+body,
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
-
 body {
-  background-image: url("../imagenes/fondoefecto2.jpg");
-  background-size: cover;
-  font-family: sans-serif;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  align-items: center;
+	background-image: url("../imagenes/fondoefecto2.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
 }
-
 svg {
-  font-weight: bold;
-  max-width: 600px;
-  height: auto;
+	font-weight: bold;
+	max-width: 600px;
+	height: auto;
 }
 p {
-    margin: 15px;
+	margin: 15px;
 	text-align: center;
-	padding:1px;
+	padding: 1px;
 	color: black;
 	font-family: Helvetica
-  }
+}
