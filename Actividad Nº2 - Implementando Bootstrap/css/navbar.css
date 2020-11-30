@@ -1,0 +1,71 @@
+body {
+	padding-bottom: 20px
+}
+.bg-dark {
+	background-color: #343a40!important;
+	border-bottom: 2px solid #dd000063
+}
+.jumbotron {
+	margin-top: 20px !important
+}
+@-webkit-keyframes parpadeo {
+	40%, 43%, 46% {
+		opacity: 1
+	}
+	42% {
+		opacity: .8
+	}
+	45% {
+		opacity: .2
+	}
+}
+@keyframes parpadeo {
+	40%, 43%, 46% {
+		opacity: 1
+	}
+	42% {
+		opacity: .8
+	}
+	45% {
+		opacity: .2
+	}
+}
+@font-face{font-family:neontubes;src:url(neontubes-webfont.eot);src:url(neontubes-webfont.eot?#iefix) format("../fuentes/embedded-opentype"),
+url(../fuentes/neontubes-webfont.woff2) format("woff2"),
+url(../fuentes/neontubes-webfont.woff) format("woff"),
+url(../fuentes/neontubes-webfont.ttf) format("truetype");
+font-weight:200;
+font-style:normal
+}
+.py-5 {
+	padding-top: 1rem!important
+}
+.card img:hover {
+	border-radius: 3px
+}
+.tituloprincipal {
+	color: #ffd9e2;
+	text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, .3), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 600px #ff003c;
+	-webkit-animation: parpadeo 3s infinite alternate;
+	animation: parpadeo 3s infinite alternate;
+	font-family: neontubes
+}
+.bd-placeholder-img {
+	font-size: 1.125rem;
+	text-anchor: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+@media (min-width: 768px) {
+	.bd-placeholder-img-lg {
+		font-size: 3.5rem
+	}
+	.tituloprincipal {
+		font-size: 2rem
+	}
+	.contenedor {
+		width: 99%
+	}
+}
