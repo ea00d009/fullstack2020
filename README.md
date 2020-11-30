@@ -6,4 +6,4 @@ Como parte de la Actividad Nº1, se creó un sitio a modo de galería que muestr
 
 Actividad Nº2 - Implementar Bootstrap
 
-Para llevar a cabo la Actividad Nº2, se implemeto Bootstrap al sitio que muestra efectos realizados solamente utilizando HTML y CSS creado en la Actividad Nº1, el sitio se mantiene 100% responsive del el de la Actividad Nº1, se mantuvo la temática del primer sitio y se incluyeron menú desplegables y formulario de contacto como items solicitados en la actividad.
+Para llevar a cabo la Actividad Nº2, se implemeto Bootstrap al sitio que muestra efectos realizados solamente utilizando HTML y CSS creado en la Actividad Nº1, el sitio sigue siendo 100% responsive como el de la Actividad Nº1, se mantuvo la temática del primer sitio y se incluyeron menú desplegables y formulario de contacto como items solicitados en la actividad.
