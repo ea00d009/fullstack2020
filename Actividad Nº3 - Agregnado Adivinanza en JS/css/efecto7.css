@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 900;
+	src: url(../fuentes/Playfairdisplay.woff2) format('woff2')
+}
+svg {
+	background: #e6e5c2;
+}
+text {
+	fill: #35322a;
+	-webkit-filter: url('#money');
+	filter: url('#money');
+	font-family: 'Playfair Display', 'Georgia', serif;
+	font-size: 120px;
+	font-weight: 900;
+}
+html {
+	-webkit-box-align: center;
+	align-items: center;
+	background: #e6e5c2;
+	display: -webkit-box;
+	display: flex;
+	-webkit-box-pack: center;
+	justify-content: center;
+	min-height: 100vh;
+	min-width: 600px;
+}

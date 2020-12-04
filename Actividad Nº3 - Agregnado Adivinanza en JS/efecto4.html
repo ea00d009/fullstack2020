@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Efecto: Texto con hormigas (animado) usando HTML y CSS</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/efecto4.css" type="text/css" media="all" />
+</head>
+
+<body>
+	<svg viewBox="0 0 900 200">
+		<a href="index.html" target="_top">
+			<symbol id="s-text">
+				<text text-anchor="middle" x="50%" y="80%">Hormigas</text>
+			</symbol>
+			<g class="hormigas">
+				<use xlink:href="#s-text" class="texto"></use>
+				<use xlink:href="#s-text" class="texto"></use>
+				<use xlink:href="#s-text" class="texto"></use>
+				<use xlink:href="#s-text" class="texto"></use>
+				<use xlink:href="#s-text" class="texto"></use>
+			</g>
+		</a>
+	</svg>
+	<p>Generando texto aleatoriamente usando CSS
+		<br>
+		<br><i>Click sobre el efecto para volver a la página principal</i>
+	</p>
+	<br>
+	<p>Actividad Nº2: Implementando Bootstrap</p>
+</body>
+
+</html>

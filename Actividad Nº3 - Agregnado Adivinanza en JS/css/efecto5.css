@@ -1,0 +1,81 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	background: #2c3e50;
+	display: flex;
+}
+.tarjeta {
+	width: 350px;
+	padding: 30px;
+	background: #1abc9c;
+	margin: auto;
+	transition: .3s ease;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.tarjeta:hover {
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.8);
+	transform: translateY(-10px) scale(1.02);
+}
+.tarjeta:hover .titulos {
+	background-position: -100% 0;
+}
+.titulos {
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #16a085 50%);
+	background-size: 200%;
+	background-position: 0 0;
+	display: inline;
+	transition: .5s ease-in-out;
+	font-family: raleway, arial, sans-serif;
+	text-transform: uppercase;
+}
+.titulos a {
+	color: white;
+	text-decoration: none;
+}
+small {
+	margin-top: 20px;
+	display: block;
+	font-family: raleway, arial, sans-serif;
+	color: white;
+	text-transform: uppercase;
+}
+small a {
+	font-weight: 700;
+	color: white;
+	text-decoration: none;
+}
+span {
+	display: block;
+	margin-top: 10px;
+	font-family: raleway, arial, sans-serif;
+	font-weight: 700;
+	color: #16a085;
+}
+span a {
+	color: white;
+}
+.iklan {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: white;
+	width: 200px;
+	padding: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.iklan p {
+	margin: 0 0 15px;
+	line-height: 1.4;
+	color: #333;
+}
+.iklan a {
+	background-color: #ff4757;
+	color: white;
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size: 14px;
+}
