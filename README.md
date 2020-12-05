@@ -10,4 +10,4 @@ Para llevar a cabo la Actividad Nº2, se implemento Bootstrap al sitio que muest
 
 Actividad Nº3 - Agregar "adivinanza" en JS al sitio implementado con Bootstrap
 
-La Actividad Nº3 consistió en agregar una adivinanza utilizando JavaScript en el backend de la misma, se implemento en el sitio creado en la Actividad Nº2, el sitio sigue siendo 100% responsive como el de la Actividad Nº1, se mantuvo la temática del primer sitio y se incluyeron menú desplegables y formulario de contacto como items solicitados en la actividad.
+La Actividad Nº3 consistió en agregar una adivinanza utilizando JavaScript en el backend de la misma, se implemento en el sitio creado en la Actividad Nº2.
