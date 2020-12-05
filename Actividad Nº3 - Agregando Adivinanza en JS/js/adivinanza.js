@@ -1,62 +1,44 @@
-
-
-var answer1 = "mary"
-
-var answer2 = "silence"
-
-var answer3 = "darkness"
-
-var answer4 = "envelope"
-
-function askRiddle() {
-
-
-
-confirm("Click OK if you're ready to play GUESS!!");
-confirm("You will be asked a series of 4 Riddles... Answers must be in all lowercase, and if you GUESS wrong, you start over. \nGood luck!")
-
-  var riddle1 = prompt("Riddle #1: Mary's mom has four children. Their names are North, South, East... what is the fourth childs name??? \n Answer = 4 characters");
-
-    if(riddle1 === answer1) {
-      document.getElementById("button").innerHTML = riddle1;
-      alert("CORRECT!! You're good! Keep on keepin on. \n Click OK for the next one!");
-
-        var riddle2 = prompt("Riddle #2: What is it that you will break, every time you name it??? \n Answer = 7 characters");
-
-          if(riddle2 === answer2) {
-            document.getElementById("button").innerHTML = riddle2;
-            alert("2 for 2! Keep going!!!");
-
-              var riddle3 = prompt("Riddle #3: The more of me there is, the less you see...\n Answer = 8 characters");
-
-                  if(riddle3 === answer3) {
-                    document.getElementById("button").innerHTML = riddle3;
-                    alert("3 for 3!! whOa MG keep going!!!");
-
-                      var riddle4 = prompt("What 8-letter word has one letter in it??? \n Answer = 8 characters, duh.");
-
-                        if(riddle4 === answer4) {
-                          document.getElementById("button").innerHTML = riddle4;
-                          alert("Thats all. YOU DID IT!!! Thanks for playing");
-                          document.getElementById("button").innerHTML = "Thanks!";
-
-                        } else {
-                          alert("OOOOOOOOOO so close. START OVER!");
-                          document.getElementById("button").innerHTML = "Try Again!";
-                        }
-
-                  } else {
-                    alert("Starting over again, huh?");
-                    document.getElementById("button").innerHTML = "Try Harder this time!";
-                  }
-
-          } else {
-            alert("Now you have to start over! HAHAHAHA!");
-            document.getElementById("button").innerHTML = "Try Again!";
-          }
-
-    } else {
-      alert("WRONG! Try Again");
-      document.getElementById("button").innerHTML = "Try Again!";
-    }
+var respuesta1 = "box-shadow"
+var respuesta2 = "flex"
+var respuesta3 = "list-style-image"
+var respuesta4 = "border-radius"
+var incorrectas = 0
+function preguntar() {
+	var adivinanza1 = prompt("Adivinanza #1: ¿Que propiedad CSS añade efectos de sombra alrededor del marco de un elemento.?nRespuesta = 11 caracteres");
+	if (adivinanza1 === respuesta1) {
+		document.getElementById("jugar").innerHTML = adivinanza1;
+		alert("¡CORRECTO! ¡Sos bueno en este juego!\nClick OK para la siguiente adivinanza.");
+		var adivinanza2 = prompt("Adivinanza #2: ¿Que propiedad CSS indica la capacidad de un elemento flexible para alterar sus dimensiones y llenar el espacio disponible.?\nRespuesta = 4 caracteres");
+		if (adivinanza2 === respuesta2) {
+			document.getElementById("jugar").innerHTML = adivinanza2;
+			alert("¡2 de 2! ¡Vamos por mas!");
+			var adivinanza3 = prompt("Adivinanza #3: ¿Que atributo CSS para listas, nos permite usar la imagen especificada como viñeta para la misma?nRespuesta = 16 caracteres");
+			if (adivinanza3 === respuesta3) {
+				document.getElementById("jugar").innerHTML = adivinanza3;
+				alert("¡3 de 3! ¡esaaaa! ¡te dije que eras bueno en esto!");
+				var adivinanza4 = prompt("¿Que propiedad CSS permite crear esquinas redondeadas para un elemento?\nRespuesta = 13 caracteres");
+				if (adivinanza4 === respuesta4) {
+					document.getElementById("jugar").innerHTML = adivinanza4;
+					alert("Eso es todo. ¡Lo hiciste perfecto! Gracias por jugar.");
+					document.getElementById("jugar").innerHTML = "¡Jugar!";
+				} else {
+					bootbox.alert("uuuh! estuviste tan cerca... ¡Comenzar nuevamente!");
+					document.getElementById("jugar").innerHTML = "¡Jugar!";
+				}
+			} else {
+				bootbox.alert("¿Empezando de nuevo eh?");
+				document.getElementById("jugar").innerHTML = "¡Jugar!";
+			}
+		} else {
+			bootbox.alert("Ahora deberás iniciar desde el principo! JAJAJAJA!");
+			document.getElementById("jugar").innerHTML = "¡Jugar!";
+		}
+	} else {
+		incorrectas = incorrectas + 1;
+		bootbox.alert({
+			message: "Incorrecto! Intentalo de nuevo.<br>Respuestas incorrectas: <b>" + incorrectas + "</b>",
+			centerVertical: true
+		});
+		document.getElementById("jugar").innerHTML = "Nuevamente!";
+	}
 }

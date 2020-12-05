@@ -4,10 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-	<meta name="generator" content="Jekyll v4.1.1">
-	<title>Actividad Nº2: Implementando Bootstrap</title>
+	<title>Actividad Nº3: Agregando "Adivinanza" al sitio implementado con Bootstrap</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/navbar.css" rel="stylesheet">
 	<link href="css/adivinanza.css" rel="stylesheet">
@@ -22,15 +19,17 @@
 		</div>
 		<div class="collapse navbar-collapse justify-content-md" id="navbarsExample08">
 			<ul class="navbar-nav">
-				<li class="nav-item active"> <span class="sr-only">(current)</span> 
+				<li class="nav-item active"> <span class="sr-only">(current)</span>
 				</li>
-				<li class="nav-item"> <a class="nav-link" href="index.html">Inicio</a> 
+				<li class="nav-item"> <a class="nav-link" href="index.html">Inicio</a>
 				</li>
 				<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Galería</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown08"> <a class="dropdown-item" href="efecto1.html">Efecto Nº1</a>  <a class="dropdown-item" href="efecto6.html">Efecto Nº2</a>  <a class="dropdown-item" href="efecto2.html">Efecto Nº3</a>  <a class="dropdown-item" href="efecto8.html">Efecto Nº4</a>  <a class="dropdown-item" href="efecto4.html">Efecto Nº5</a>  <a class="dropdown-item" href="efecto5.html">Efecto Nº6</a>  <a class="dropdown-item" href="efecto7.html">Efecto Nº7</a>  <a class="dropdown-item" href="efecto9.html">Efecto Nº8</a>  <a class="dropdown-item" href="efecto3.html">Efecto Nº9</a> 
+					<div class="dropdown-menu" aria-labelledby="dropdown08"> <a class="dropdown-item" href="efecto1.html">Efecto Nº1</a>  <a class="dropdown-item" href="efecto6.html">Efecto Nº2</a>  <a class="dropdown-item" href="efecto2.html">Efecto Nº3</a>  <a class="dropdown-item" href="efecto8.html">Efecto Nº4</a>  <a class="dropdown-item" href="efecto4.html">Efecto Nº5</a>  <a class="dropdown-item" href="efecto5.html">Efecto Nº6</a>  <a class="dropdown-item" href="efecto7.html">Efecto Nº7</a>  <a class="dropdown-item" href="efecto9.html">Efecto Nº8</a>  <a class="dropdown-item" href="efecto3.html">Efecto Nº9</a>
 					</div>
 				</li>
-				<li class="nav-item"> <a class="nav-link" href="contacto.html">Contacto</a> 
+				<li class="nav-item"> <a class="nav-link" href="adivinanza.html">Adivinanza</a>
+				</li>
+				<li class="nav-item"> <a class="nav-link" href="contacto.html">Contacto</a>
 				</li>
 			</ul>
 		</div>
@@ -38,37 +37,21 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="p-5 bg-white shadow-lg rounded">
-		  <div id="content">
-
-    <h1>Welcome to:</h1>
-
-    <h2 id="guess"><u>GUESS!!</u></h2>
-
-    <h4>ft. 4 Riddles</h4>
-
-    <p>When you're ready, you know what to do!!</p>
-
-      <div id="box">
-
-          <h2 id="button" onclick="askRiddle()" >Play!</h2>
-
-      </div>
-
-
-  </div>
-
-<p id="tag">-a <a href="http://naidevcodes.io">NaidevCodes: iO</a> production-</p>
-
-<script src="js/guess.js">
-</script>
+				<div>
+					<h2>¡Adivina adivinador!</h2>
+					<p>Cuando estes listo, ya sabes lo que tenes que hacer.</p>
+					<div class="boton">
+						<h2 id="jugar" onclick="preguntar()">¡Jugar!</h2>
+					</div>
+				</div>
+				</script>
 			</div>
 		</div>
 	</div>
 </body>
 <script src="js/adivinanza.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>
-	window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js">
-</script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+
 </html>

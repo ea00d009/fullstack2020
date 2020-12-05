@@ -1,81 +1,23 @@
-
-#content {
-  padding: 30px 0 0;
+p {
+	text-align: center;
+	font-family: 'Droid Serif', serif;
+	font-size: 2em
 }
 
-body {
-  background-color: #EDEEF0;
-  color: #505C7D
-
+#jugar {
+	font-family: 'Droid Serif', serif;
+	font-size: 3em;
+	padding-top: 40px;
+	color: #EDEEF0;
+	cursor: pointer
 }
-
-h1, p {
-  text-align: center;
-  font-family: 'Droid Serif', serif;
-  font-size: 2em;
-}
-
-h3 {
-  text-align: center;
-  font-family: 'Droid Serif', serif;
-  font-size: 1em;
-}
-
-h4 {
-  text-align: center;
-  font-family: 'Droid Serif', serif;
-  font-size: 1.5em;
-  margin: 0 0 75px 0;
-}
-
-#button {
-  font-family: 'Droid Serif', serif;
-  font-size: 3em;
-  padding-top: 40px;
-  color: #EDEEF0;
-  cursor: pointer;
-}
-
-#box {
-  background-color: #959BAB;
-  height: 150px;
-  width: 300px;
-  margin: auto;
-  border-radius: 20px;
-  text-align: center;
-  margin-bottom: 60px;
-  cursor: pointer;
-}
-
-#guess {
-  text-align: center;
-  font-family: 'Fredoka One', serif;
-  font-size: 5em;
-  margin: 0;
-  color: #505C7D;
-}
-
-
-#answer {
-  text-align: center;
-  font-family: 'Fredoka One', serif;
-  font-size: 2em;
-  margin: 0;
-  color: #505C7D;
-}
-
-#tag {
-  text-align: center;
-  font-family: 'Droid Serif', serif;
-  font-size: .90em;
-
-}
-
-a {
-  text-decoration: none;
-  color: #505C7D;
-}
-a:hover {
-  font-size: 1.15em;
-  color: #959BAB
+.boton {
+	background-color: #959BAB;
+	height: 150px;
+	width: 300px;
+	margin: auto;
+	border-radius: 20px;
+	text-align: center;
+	margin-bottom: 60px;
+	cursor: pointer
 }
