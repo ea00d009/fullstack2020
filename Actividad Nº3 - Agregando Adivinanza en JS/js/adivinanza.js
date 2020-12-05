@@ -4,7 +4,7 @@ var respuesta3 = "list-style-image"
 var respuesta4 = "border-radius"
 var incorrectas = 0
 function preguntar() {
-	var adivinanza1 = prompt("Adivinanza #1: ¿Que propiedad CSS añade efectos de sombra alrededor del marco de un elemento.?nRespuesta = 11 caracteres");
+	var adivinanza1 = prompt("Adivinanza #1: ¿Que propiedad CSS añade efectos de sombra alrededor del marco de un elemento.?\nRespuesta = 11 caracteres");
 	if (adivinanza1 === respuesta1) {
 		document.getElementById("jugar").innerHTML = adivinanza1;
 		alert("¡CORRECTO! ¡Sos bueno en este juego!\nClick OK para la siguiente adivinanza.");
